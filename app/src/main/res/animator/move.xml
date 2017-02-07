@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:shareInterpolator="true">
+    <objectAnimator
+        android:duration="2000"
+        android:interpolator="@android:anim/linear_interpolator">
+        <propertyValuesHolder
+            android:propertyName="translationX"
+            android:valueTo="0" />
+        <propertyValuesHolder
+            android:propertyName="translationY"
+            android:valueTo="1000" />
+    </objectAnimator>
+</set>
+
+
+
+
+
+
